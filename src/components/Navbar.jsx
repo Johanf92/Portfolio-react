@@ -10,7 +10,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
       <div className=" max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-xl font-bold text-white">
-            Johan<span className="text-blue-500">.WebDev</span>
+            Johan's<span className="text-yellow-500">.Portfolio</span>
           </a>
 
           {/* Mobile Menu Icon */}
@@ -25,25 +25,25 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           <div className="hidden md:flex items-center space-x-8">
             <a
               href="#home"
-              className="text-gray-300 hover:text-white transition-colors"
+              className="text-yellow-300 hover:text-white transition-colors"
             >
               Home
             </a>
             <a
               href="#projects"
-              className="text-gray-300 hover:text-white transition-colors"
+              className="text-yellow-300 hover:text-white transition-colors"
             >
               Projects
             </a>
             <a
               href="#about"
-              className="text-gray-300 hover:text-white transition-colors"
+              className="text-yellow-300 hover:text-white transition-colors"
             >
               About
             </a>
             <a
               href="#contact"
-              className="text-gray-300 hover:text-white transition-colors"
+              className="text-yellow-300 hover:text-white transition-colors"
             >
               Contact
             </a>
