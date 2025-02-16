@@ -144,6 +144,13 @@ export const About = () => {
               </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
+                  <h4> Support & Customer Service, Domene.no</h4>
+                  <p>
+                    Assisting customers with domain management, technical
+                    support, and hosting solutions.
+                  </p>
+                </div>
+                <div>
                   <h4> Sales Manager, Elkjøp</h4>
                   <p>
                     Led a team in sales, improving customer experience and
