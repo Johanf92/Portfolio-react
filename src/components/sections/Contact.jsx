@@ -12,6 +12,11 @@ export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    console.log("Submitting form with:");
+    console.log("Name:", formData.name);
+    console.log("Email:", formData.email);
+    console.log("Message:", formData.message);
+
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID,
