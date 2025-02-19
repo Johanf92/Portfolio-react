@@ -56,11 +56,11 @@ export const Projects = () => {
               },
               {
                 title: "Portfolio 1",
-                image: "/Portfolio-react/public/img/Portfolio1.png",
+                image: "/Portfolio-react/img/Portfolio1.png",
                 description:
                   "This website showcases my work, skills, and projects, built with just HTML and CSS. It's a simple yet effective representation of my passion for web development and design.",
                 technologies: ["HTML", "CSS", "Basic", "MediaQueries"],
-                liveLink: "#",
+                liveLink: "https://relaxed-chebakia-d7a028.netlify.app/",
                 githubLink: "https://github.com/Johanf92/social-media-client",
               },
               {
@@ -88,15 +88,6 @@ export const Projects = () => {
                 githubLink:
                   "https://github.com/Johanf92/Semester-Project-Johan/",
               },
-              {
-                title: "Project 1",
-                image: "/Portfolio-react/img/Project1.png",
-                description:
-                  "Description -- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, repudiandae!",
-                technologies: ["React", "Node.js", "AWS", "Docker"],
-                liveLink: "#",
-                githubLink: "#",
-              },
             ].map((project, index) => (
               <div
                 key={index}
@@ -123,7 +114,6 @@ export const Projects = () => {
                   ))}
                 </div>
 
-                {/* Ensuring Buttons Stay at the Bottom */}
                 <div className="mt-auto">
                   <a
                     href={project.liveLink}

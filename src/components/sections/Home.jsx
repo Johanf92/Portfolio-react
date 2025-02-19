@@ -14,7 +14,6 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="max-w-4xl w-full mx-auto flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8">
-          {/* Left Side: Text */}
           <div className="text-center md:text-left">
             <h1 className="text-center text-4xl font-bold mb-8 bg-gradient-to-r from-yellow-500 to-orange-600 bg-clip-text text-transparent leading-tight">
               Hello! Welcome to Johan's WebDev Solutions
@@ -36,7 +35,7 @@ export const Home = () => {
                 projects!
               </p>
 
-              {/* Right Side: Image and Icons */}
+              {/* Right Side: Imageand Icons */}
               <div className="flex flex-col items-center">
                 <img
                   src="/Portfolio-react/img/20240917_171140(1).jpg"
@@ -44,7 +43,6 @@ export const Home = () => {
                   className="w-60 h-70 rounded-lg object-cover shadow-lg"
                 />
 
-                {/* Social Icons - Now centered inside the bordered container */}
                 <div className="flex justify-center space-x-6 pt-4 w-full">
                   <a
                     href="https://github.com/johanf92"
