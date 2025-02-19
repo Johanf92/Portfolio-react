@@ -39,7 +39,7 @@ export const Home = () => {
               {/* Right Side: Image and Icons */}
               <div className="flex flex-col items-center">
                 <img
-                  src="/Portfolio-react/img/20240917_171140(1).jpg"
+                  src="/Portfolio-react/public/img/20240917_171140(1).jpg"
                   alt="Johan's Profile"
                   className="w-60 h-70 rounded-lg object-cover shadow-lg"
                 />

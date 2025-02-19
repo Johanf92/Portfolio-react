@@ -15,7 +15,7 @@ export const Projects = () => {
             {[
               {
                 title: "Auction Site",
-                image: "/Portfolio-react/img/Auction1.png",
+                image: "/Portfolio-react/public/img/Auction1.png",
                 description:
                   "The objective of this project is to utilize the skills learned over the past three semesters to create a fully functional auction website. This website will allow users to add items for auction and bid on items listed by other users.",
                 technologies: [
@@ -35,7 +35,7 @@ export const Projects = () => {
               },
               {
                 title: "Social Media",
-                image: "/Portfolio-react/img/DevBook.png",
+                image: "/Portfolio-react/public/img/DevBook.png",
                 description:
                   "The primary aim of this assignment is to get used to writing unit tests and E2E tests, in this case for the login and logout functionality of a premade project. Additionally, it provides an opportunity to enhance familiarity with essential development tools such as Git for version control, npm packages for dependency management, and various testing frameworks and tools.",
                 technologies: [
@@ -56,7 +56,7 @@ export const Projects = () => {
               },
               {
                 title: "Portfolio 1",
-                image: "/Portfolio-react/img/Portfolio1.png",
+                image: "/Portfolio-react/public/img/Portfolio1.png",
                 description:
                   "This website showcases my work, skills, and projects, built with just HTML and CSS. It's a simple yet effective representation of my passion for web development and design.",
                 technologies: ["HTML", "CSS", "Basic", "MediaQueries"],
@@ -65,7 +65,7 @@ export const Projects = () => {
               },
               {
                 title: "First Exam - Food Blog",
-                image: "/Portfolio-react/img/FoodBlog1.png",
+                image: "/Portfolio-react/public/img/FoodBlog1.png",
                 description:
                   "Purpose of the project is to create a blog page using WordPress as a headless CMS with WordPress REST-API and skills in HTML, CSS, and JavaScript.",
                 technologies: [
@@ -80,7 +80,7 @@ export const Projects = () => {
               },
               {
                 title: "Museum Project",
-                image: "/Portfolio-react/img/Museum.png",
+                image: "/Portfolio-react/public/img/Museum.png",
                 description:
                   "Step into the world of history and art with our Museum Project! This webpage is designed specifically for school classes, demonstrating how to create a museum website using only HTML and CSS from scratch.",
                 technologies: ["HTML", "CSS", "MediaQueries"],
@@ -90,7 +90,7 @@ export const Projects = () => {
               },
               {
                 title: "Project 1",
-                image: "/Portfolio-react/img/Project1.png",
+                image: "/Portfolio-react/public/img/Project1.png",
                 description:
                   "Description -- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, repudiandae!",
                 technologies: ["React", "Node.js", "AWS", "Docker"],
