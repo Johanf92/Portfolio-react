@@ -13,7 +13,6 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             Johan's<span className="text-yellow-500">.Portfolio</span>
           </a>
 
-          {/* Mobile Menu Icon */}
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
             onClick={() => setMenuOpen((prev) => !prev)}
@@ -21,7 +20,6 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             &#9776;
           </div>
 
-          {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <a
               href="#home"

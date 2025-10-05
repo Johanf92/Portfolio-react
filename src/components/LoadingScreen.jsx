@@ -32,18 +32,16 @@ export const LoadingScreen = ({ onComplete }) => {
         maxWidth: "100vw",
         overflow: "hidden",
         minHeight: "100dvh",
-        paddingInline: "clamp(1rem, 4vw, 2rem)", // dynamic horizontal padding
+        paddingInline: "clamp(1rem, 4vw, 2rem)",
         paddingTop: "env(safe-area-inset-top)",
         paddingBottom: "env(safe-area-inset-bottom)",
       }}
     >
-      {/* Typing text */}
       <div className="mb-8 text-xl sm:text-2xl md:text-3xl font-mono font-bold leading-snug break-words max-w-[90vw]">
         {text}
         <span className="animate-blink ml-1">|</span>
       </div>
 
-      {/* Loading bar */}
       <div className="w-[75vw] sm:w-[55vw] md:w-[300px] h-[3px] bg-gray-800 rounded relative overflow-hidden">
         <div className="w-[40%] h-full bg-yellow-500 shadow-[0_0_15px_#facc15] animate-loading-bar"></div>
       </div>

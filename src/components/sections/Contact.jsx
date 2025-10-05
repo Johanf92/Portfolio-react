@@ -46,7 +46,6 @@ export const Contact = () => {
             className="grid grid-cols-1 md:grid-cols-2 gap-6"
             onSubmit={handleSubmit}
           >
-            {/* Name */}
             <div className="col-span-1">
               <label
                 htmlFor="name"
@@ -68,7 +67,6 @@ export const Contact = () => {
               />
             </div>
 
-            {/* Email */}
             <div className="col-span-1">
               <label
                 htmlFor="email"
@@ -90,7 +88,6 @@ export const Contact = () => {
               />
             </div>
 
-            {/* Message */}
             <div className="col-span-1 md:col-span-2">
               <label
                 htmlFor="message"
@@ -112,7 +109,6 @@ export const Contact = () => {
               ></textarea>
             </div>
 
-            {/* Submit Button */}
             <div className="col-span-1 md:col-span-2 flex justify-center">
               <button
                 type="submit"

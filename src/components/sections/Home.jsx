@@ -19,11 +19,8 @@ export const Home = () => {
             Welcome to Johan’s Portfolio
           </h1>
 
-          {/* Card-style Intro Block */}
           <div className="border border-white/10 bg-white/5 hover:bg-white/10 hover:border-yellow-500/40 transition-all p-8 rounded-xl shadow-lg shadow-yellow-500/5 flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-10">
-            {/* Text Section */}
             <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-xl space-y-4">
-              {/* Added tagline inside the box */}
               <p className="text-yellow-400 text-lg font-medium tracking-wide">
                 Crafting modern, responsive, and visually engaging web
                 experiences.
@@ -42,9 +39,7 @@ export const Home = () => {
               </p>
             </div>
 
-            {/* Profile Image + Socials */}
             <div className="flex flex-col items-center space-y-4">
-              {/* Profile Image with Glow Effect */}
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-yellow-500 to-orange-400 rounded-lg blur opacity-30 group-hover:opacity-70 transition duration-500"></div>
                 <img
@@ -54,7 +49,6 @@ export const Home = () => {
                 />
               </div>
 
-              {/* Social Icons */}
               <div className="flex justify-center space-x-6 pt-2">
                 <a
                   href="https://github.com/Johanf92"
