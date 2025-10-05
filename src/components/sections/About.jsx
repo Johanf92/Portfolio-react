@@ -45,7 +45,6 @@ export const About = () => {
             aesthetics and functionality.
           </p>
 
-          {/* Main About Card */}
           <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-2 hover:bg-white/5 hover:border-yellow-500/50 transition-all mb-10 shadow-lg shadow-yellow-500/5">
             <p className="text-gray-300 mb-6 leading-relaxed">
               I have honed my skills in HTML, CSS, and JavaScript, working
@@ -58,7 +57,6 @@ export const About = () => {
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Frontend Skills */}
               <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:bg-white/5 hover:border-yellow-500/30 transition-all">
                 <h3 className="text-xl font-bold mb-4 text-yellow-400 text-center">
                   Frontend
@@ -75,7 +73,6 @@ export const About = () => {
                 </div>
               </div>
 
-              {/* Design Skills */}
               <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:bg-white/5 hover:border-yellow-500/30 transition-all">
                 <h3 className="text-xl font-bold mb-4 text-yellow-400 text-center">
                   Design
@@ -94,7 +91,6 @@ export const About = () => {
             </div>
           </div>
 
-          {/* Education & Work Experience */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Education Card */}
             <article className="p-6 rounded-xl border border-white/10 hover:-translate-y-2 hover:bg-white/5 hover:border-yellow-500/50 transition-all shadow-lg shadow-yellow-500/5">
@@ -162,7 +158,6 @@ export const About = () => {
               </ul>
             </article>
 
-            {/* Work Experience Card */}
             <article className="p-6 rounded-xl border border-white/10 hover:-translate-y-2 hover:bg-white/5 hover:border-yellow-500/50 transition-all shadow-lg shadow-yellow-500/5">
               <h3 className="text-xl font-bold mb-4 text-yellow-400 text-center">
                 Work Experience

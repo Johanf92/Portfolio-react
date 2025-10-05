@@ -18,7 +18,7 @@ The page includes:
 - A responsive contact form powered by **EmailJS**
 - Smooth scroll animations and a clean, modern UI built with **React** and **TailwindCSS**
 
-### ✨ Key Features
+### Key Features
 
 - Fully responsive design across all screen sizes
 - Built with modern web technologies (React + Vite)
@@ -28,7 +28,7 @@ The page includes:
 
 ---
 
-## 🧰 Built With
+## Built With
 
 - [React.js](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
@@ -39,7 +39,7 @@ The page includes:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installing
 
