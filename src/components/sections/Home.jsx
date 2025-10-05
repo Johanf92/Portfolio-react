@@ -14,7 +14,6 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="max-w-5xl w-full mx-auto flex flex-col items-center text-center space-y-10">
-          {/* Header */}
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-yellow-500 to-orange-400 bg-clip-text text-transparent leading-tight">
             Welcome to Johan’s Portfolio
           </h1>
@@ -93,7 +92,6 @@ export const Home = () => {
             </div>
           </div>
 
-          {/* CTA Buttons */}
           <div className="flex justify-center space-x-4 mt-6">
             <a
               href="#projects"
