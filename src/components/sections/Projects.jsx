@@ -1,12 +1,13 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Projects = () => {
-  const basePath = import.meta.env.BASE_URL;
+  // Works with images in public/img/
+  const imageBaseURL = "/Portfolio-react/img/";
 
   const projects = [
     {
       title: "Exam HoliDaze",
-      image: `${basePath}img/Holidaze.png`,
+      image: `${imageBaseURL}Holidaze.png`,
       alt: "Screenshot of the HoliDaze accommodation booking app interface",
       description:
         "Holidaze is my final frontend exam project at Noroff, built using React, Vite, and TailwindCSS. It’s a modern accommodation booking application where users can explore venues, make bookings, and manage their profiles, while venue managers can create and handle their own venues and bookings through an admin dashboard.",
@@ -27,7 +28,7 @@ export const Projects = () => {
     },
     {
       title: "Auction Site",
-      image: `${basePath}img/Auction1.png`,
+      image: `${imageBaseURL}Auction1.png`,
       alt: "Screenshot of the Auction Site web app showing listings and bids",
       description:
         "A fully functional auction website where users can add items for auction and bid on items listed by others. Built using HTML, CSS (Bootstrap), and JavaScript with API integration. Focused on responsive design and user experience.",
@@ -49,7 +50,7 @@ export const Projects = () => {
     },
     {
       title: "Social Media",
-      image: `${basePath}img/DevBook.png`,
+      image: `${imageBaseURL}DevBook.png`,
       alt: "Screenshot of the DevBook social media application feed",
       description:
         "A JavaScript Frameworks course assignment focused on using React for a social media app. Includes login/logout functionality, REST API integration, and testing with Jest and Cypress to ensure reliability and performance.",
@@ -72,7 +73,7 @@ export const Projects = () => {
     },
     {
       title: "Portfolio 1",
-      image: `${basePath}img/Portfolio1.png`,
+      image: `${imageBaseURL}Portfolio1.png`,
       alt: "Screenshot of a personal portfolio built with HTML and CSS",
       description:
         "This was my first portfolio, built using only HTML and CSS. It’s a simple yet effective representation of my design sense and my early approach to responsive web layout and clean structure.",
@@ -82,7 +83,7 @@ export const Projects = () => {
     },
     {
       title: "First Exam - Food Blog",
-      image: `${basePath}img/FoodBlog1.png`,
+      image: `${imageBaseURL}FoodBlog1.png`,
       alt: "Screenshot of the Food Blog website using WordPress API",
       description:
         "A blog page built using WordPress as a headless CMS via the WordPress REST API. Demonstrates skills in working with APIs, fetching data dynamically, and structuring layouts with HTML, CSS, and JavaScript.",
@@ -99,7 +100,7 @@ export const Projects = () => {
     },
     {
       title: "Museum Project",
-      image: `${basePath}img/Museum.png`,
+      image: `${imageBaseURL}Museum.png`,
       alt: "Screenshot of the Museum website home page for educational use",
       description:
         "A museum website built from scratch with HTML and CSS, designed for an educational audience. This project demonstrates my foundational front-end skills, focusing on layout, structure, and accessibility.",
@@ -139,6 +140,7 @@ export const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.alt}
+                  loading="lazy"
                   className="w-full aspect-video object-cover rounded-lg mb-4 shadow-lg shadow-yellow-500/10"
                 />
 
