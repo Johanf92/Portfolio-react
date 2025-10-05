@@ -10,89 +10,109 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative px-6 pt-20"
+      className="min-h-screen flex items-center justify-center relative py-20 px-6"
     >
       <RevealOnScroll>
-        <div className="max-w-4xl w-full mx-auto flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8">
-          <div className="text-center md:text-left">
-            <h1 className="text-center text-4xl font-bold mb-8 bg-gradient-to-r from-yellow-500 to-orange-600 bg-clip-text text-transparent leading-tight">
-              Hello! Welcome to Johan's WebDev Solutions
-            </h1>
+        <div className="max-w-5xl w-full mx-auto flex flex-col items-center text-center space-y-10">
+          {/* Header */}
+          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-yellow-500 to-orange-400 bg-clip-text text-transparent leading-tight">
+            Welcome to Johan’s Portfolio
+          </h1>
 
-            {/* Flex container for paragraph, image, and icons */}
-            <div className="flex flex-col md:flex-row items-center border border-yellow-500/20 py-6 px-6 md:items-start space-y-6 md:space-y-0 md:space-x-8">
-              {/* Paragraph */}
-              <p className="text-gray-400 text-lg max-w-lg mt-3">
-                I'm currently in my final year of studying front-end development
-                at Noroff. I specialize in creating responsive and visually
-                appealing websites using HTML, CSS, and JavaScript, with
-                frameworks like Bootstrap and Tailwind to streamline the
-                process. I also have experience working with design tools such
-                as Figma and Adobe, ensuring that my designs are not only
-                functional but aesthetically pleasing. In addition, I have a
-                solid understanding of CMS platforms and other web development
-                tools. Feel free to check out my GitHub for more details on my
-                projects!
+          {/* Card-style Intro Block */}
+          <div className="border border-white/10 bg-white/5 hover:bg-white/10 hover:border-yellow-500/40 transition-all p-8 rounded-xl shadow-lg shadow-yellow-500/5 flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-10">
+            {/* Text Section */}
+            <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-xl space-y-4">
+              {/* Added tagline inside the box */}
+              <p className="text-yellow-400 text-lg font-medium tracking-wide">
+                Crafting modern, responsive, and visually engaging web
+                experiences.
               </p>
 
-              {/* Right Side: Imageand Icons */}
-              <div className="flex flex-col items-center">
+              <p className="text-gray-300 text-lg leading-relaxed">
+                I’m currently in my final year of studying{" "}
+                <strong>Front-End Development at Noroff</strong>. I specialize
+                in building responsive, user-focused web applications using
+                React, TailwindCSS, and modern JavaScript workflows.
+                <br />
+                <br />I also have a strong eye for design — bringing together{" "}
+                <strong>UI/UX principles</strong> with tools like{" "}
+                <strong>Figma</strong> and <strong>Adobe XD</strong> to deliver
+                polished, intuitive user experiences.
+              </p>
+            </div>
+
+            {/* Profile Image + Socials */}
+            <div className="flex flex-col items-center space-y-4">
+              {/* Profile Image with Glow Effect */}
+              <div className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-r from-yellow-500 to-orange-400 rounded-lg blur opacity-30 group-hover:opacity-70 transition duration-500"></div>
                 <img
                   src="/Portfolio-react/img/20240917_171140(1).jpg"
-                  alt="Johan's Profile picture"
-                  className="w-60 h-70 rounded-lg object-cover shadow-lg"
+                  alt="Portrait of Johan, front-end developer"
+                  className="relative w-56 h-64 object-cover rounded-lg shadow-lg shadow-yellow-500/20 group-hover:shadow-yellow-500/40 transition-all duration-300"
                 />
+              </div>
 
-                <div className="flex justify-center space-x-6 pt-4 w-full">
-                  <a
-                    href="https://github.com/johanf92"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaGithub className="text-gray-400 text-3xl hover:text-yellow-500 transition" />
-                  </a>
-                  <a
-                    href="https://linkedin.com/in/yourlinkedin"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaFacebookMessenger className="text-gray-400 text-3xl hover:text-yellow-500 transition" />
-                  </a>
-                  <a
-                    href="https://facebook.com/in/yourlinkedin"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaLinkedin className="text-gray-400 text-3xl hover:text-yellow-500 transition" />
-                  </a>
+              {/* Social Icons */}
+              <div className="flex justify-center space-x-6 pt-2">
+                <a
+                  href="https://github.com/Johanf92"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub Profile"
+                  className="text-gray-400 text-3xl hover:text-yellow-500 hover:-translate-y-1 transition-all"
+                >
+                  <FaGithub />
+                </a>
 
-                  <a
-                    href="https://codepen.io/yourusername"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaCodepen className="text-gray-400 text-3xl hover:text-yellow-500 transition" />
-                  </a>
-                </div>
+                <a
+                  href="https://linkedin.com/in/johanf92"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn Profile"
+                  className="text-gray-400 text-3xl hover:text-yellow-500 hover:-translate-y-1 transition-all"
+                >
+                  <FaLinkedin />
+                </a>
+
+                <a
+                  href="https://m.me/johanf92"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Messenger Link"
+                  className="text-gray-400 text-3xl hover:text-yellow-500 hover:-translate-y-1 transition-all"
+                >
+                  <FaFacebookMessenger />
+                </a>
+
+                <a
+                  href="https://codepen.io/johanf92"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="CodePen Profile"
+                  className="text-gray-400 text-3xl hover:text-yellow-500 hover:-translate-y-1 transition-all"
+                >
+                  <FaCodepen />
+                </a>
               </div>
             </div>
+          </div>
 
-            {/* Buttons */}
-            <div className="flex justify-center space-x-4 mt-8">
-              <a
-                href="#projects"
-                className="bg-yellow-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-lg"
-              >
-                View Projects
-              </a>
-
-              <a
-                href="#contact"
-                className="border border-yellow-500/50 text-yellow-500 py-3 px-6 rounded font-medium transition duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:bg-yellow-500/10"
-              >
-                Contact Me
-              </a>
-            </div>
+          {/* CTA Buttons */}
+          <div className="flex justify-center space-x-4 mt-6">
+            <a
+              href="#projects"
+              className="bg-yellow-500 text-white py-3 px-8 rounded-lg font-medium transition-all hover:-translate-y-0.5 hover:bg-yellow-400 hover:shadow-[0_0_15px_rgba(255,215,0,0.4)]"
+            >
+              View Projects
+            </a>
+            <a
+              href="#contact"
+              className="border border-yellow-500/50 text-yellow-500 py-3 px-8 rounded-lg font-medium transition-all hover:-translate-y-0.5 hover:bg-yellow-500/10 hover:shadow-[0_0_15px_rgba(255,215,0,0.2)]"
+            >
+              Contact Me
+            </a>
           </div>
         </div>
       </RevealOnScroll>

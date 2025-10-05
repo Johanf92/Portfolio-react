@@ -1,27 +1,45 @@
-# Your project title
+# Johan's Portfolio – Front-End Developer Showcase
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-A simple overview of the use/purpose of the project.
+A modern, responsive portfolio website built to showcase my front-end development projects and skills.  
+This project serves as my professional online presence and part of my **Noroff Portfolio 2 – Course Assignment**.
 
-## Description
+---
 
-Add a more detailed description of what your project entails and set out to do.
+## 📝 Description
 
-You can add some bullet points if you'd like to:
+This portfolio highlights my growth as a developer through a curated selection of projects from my studies at **Noroff School of Technology and Digital Media**.
 
-- List item 1
-- List item 2
-- List item 3
+The page includes:
 
-## Built With
+- A professional "About Me" section
+- A project gallery with screenshots, descriptions, and live links
+- A responsive contact form powered by **EmailJS**
+- Smooth scroll animations and a clean, modern UI built with **React** and **TailwindCSS**
 
-You can list a the tech stack that you've used over here
+### ✨ Key Features
+
+- Fully responsive design across all screen sizes
+- Built with modern web technologies (React + Vite)
+- Animated scroll reveals for engaging user experience
+- Integration with EmailJS for functional contact form
+- Hosted with GitHub Pages
+
+---
+
+## 🧰 Built With
 
 - [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [EmailJS](https://www.emailjs.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [GitHub Pages](https://pages.github.com/)
 
-## Getting Started
+---
+
+## 🚀 Getting Started
 
 ### Installing
 
