@@ -1,21 +1,18 @@
 @import "tailwindcss";
 
-/* 🌍 GLOBAL RESETS & LAYOUT FIXES */
 html,
 body,
 #root {
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* ✅ Prevent horizontal overflow on all devices */
+  overflow-x: hidden;
   font-family: "Space Grotesk", sans-serif;
   background: #0a0a0a;
   color: #f3f4f6;
 }
 
-/* ✨ ANIMATIONS & UTILITIES */
 @layer utilities {
-  /* Blinking cursor for typing effect */
   @keyframes blink {
     0%,
     100% {
@@ -30,7 +27,6 @@ body,
     animation: blink 0.8s step-end infinite;
   }
 
-  /* Loading bar animation */
   @keyframes loading {
     0% {
       transform: translateX(-100%);
@@ -44,7 +40,6 @@ body,
     animation: loading 0.8s ease infinite;
   }
 
-  /* Fade in effect for elements (used in RevealOnScroll, loading, etc.) */
   @keyframes fade-in {
     from {
       opacity: 0;
@@ -60,7 +55,6 @@ body,
     animation: fade-in 0.7s ease-out;
   }
 
-  /* Fade out animation (for loading screen exit) */
   @keyframes fade-out {
     from {
       opacity: 1;
@@ -75,7 +69,6 @@ body,
   }
 }
 
-/* 👀 REVEAL SCROLL EFFECT */
 .reveal {
   opacity: 0;
   transform: translateY(20px);

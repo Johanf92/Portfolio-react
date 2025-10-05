@@ -92,7 +92,6 @@ export const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Education Card */}
             <article className="p-6 rounded-xl border border-white/10 hover:-translate-y-2 hover:bg-white/5 hover:border-yellow-500/50 transition-all shadow-lg shadow-yellow-500/5">
               <h3 className="text-xl font-bold mb-4 text-yellow-400 text-center">
                 Education

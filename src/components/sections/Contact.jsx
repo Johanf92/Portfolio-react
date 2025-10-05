@@ -39,7 +39,7 @@ export const Contact = () => {
 
           <p className="text-gray-400 text-center max-w-2xl mx-auto mb-10">
             Have a project in mind or just want to say hello? Feel free to reach
-            out — I’d love to hear from you!
+            out, I’d love to hear from you!
           </p>
 
           <form
