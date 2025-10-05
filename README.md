@@ -1,6 +1,6 @@
 # Johan's Portfolio – Front-End Developer Showcase
 
-![Project preview](public/img/portfolio2.png)
+![Project preview](public/img/Portfolio2.png)
 
 A modern, responsive portfolio website built to showcase my front-end development projects and skills.  
 This project serves as my professional online presence and part of my **Noroff Portfolio 2 – Course Assignment**.
