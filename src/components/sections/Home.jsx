@@ -31,7 +31,7 @@ export const Home = () => {
                 in building responsive, user-focused web applications using
                 React, TailwindCSS, and modern JavaScript workflows.
                 <br />
-                <br />I also have a strong eye for design — bringing together{" "}
+                <br />I also have a strong eye for design, bringing together{" "}
                 <strong>UI/UX principles</strong> with tools like{" "}
                 <strong>Figma</strong> and <strong>Adobe XD</strong> to deliver
                 polished, intuitive user experiences.
