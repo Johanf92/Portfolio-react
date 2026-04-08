@@ -42,7 +42,7 @@ export const Home = () => {
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-yellow-500 to-orange-400 rounded-lg blur opacity-30 group-hover:opacity-70 transition duration-500"></div>
                 <img
-                  src="/Portfolio-react/img/20240917_171140(1).jpg"
+                  src="/img/20240917_171140(1).jpg"
                   alt="Portrait of Johan, front-end developer"
                   className="relative w-56 h-64 object-cover rounded-lg shadow-lg shadow-yellow-500/20 group-hover:shadow-yellow-500/40 transition-all duration-300"
                 />
